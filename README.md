@@ -15,12 +15,19 @@ Det er blevet brugt til at elever kan uploade .html filer og de kan samles på e
 Indlæser data fra regnearket 'Form Responses 1' til 'data'.
 `
   var sheetName = 'Form Responses 1';
+
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(sheetName);
+
   var startRow = 1;
+
   var startCol = 7;
+
   var numRows = 10;
+
   var numCol = 1;
+
   var dataRange = sheet.getRange(startRow, startCol, numRows, numCol);
+  
   var data = dataRange.getValues();
 `
 
