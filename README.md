@@ -7,6 +7,8 @@ To scripts til at holde styr på filnavne når de uploades med google forms.
 
 [setFileNames.js](setFileNames.js) ændre navnet på filerne i forhold til input fra spørgeskema.
 
+[genererHTMLfil.js](genererHTMLfil.js), laver en html fil ud fra gSheet oplysninger.
+
 Det er blevet brugt til at elever kan uploade .html filer og de kan samles på en gennem en fælles webside, med fornuftige referencer.
 
 

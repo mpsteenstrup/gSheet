@@ -12,7 +12,6 @@ function setFileNames(){
   for (var i = 1; i < data.length; ++i) {
     var row = data[i];
     id = row[6];
-    console.log(id);
     if (id.length > 0){
       name = row[1] + "_" + row[2] + ".html";
       id = id.split("=")[1];
