@@ -38,3 +38,19 @@ Iterere over alle rækker. Stien til filen bliver splittet i ved `=`  og den sid
     }
   }
 ```
+
+## setFileNames - gennemgang
+Samme grundstruktur som `getFileNames` men her bliver filnavnet ændret i forhold til svarene i spørgeskemaet, konkret klasse og navnet på programmet.
+
+Hvis der er en fil bliver den navnet sammensat af klasse, `row[1]` og programnavn `row[2]`. Filen opdateres med `file.setName(name)`.
+
+```
+if (id.length > 0){
+  name = row[1] + "_" + row[2] + ".html";
+  id = id.split("=")[1];
+  var file = DriveApp.getFileById(id);
+  file.setName(name);
+  var name = file.getName();
+  sheet.getRange('H' + (i+1)).setValue(name);
+}
+```
