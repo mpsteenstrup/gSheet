@@ -54,3 +54,7 @@ if (id.length > 0){
   sheet.getRange('H' + (i+1)).setValue(name);
 }
 ```
+
+## genererHTMLfil
+
+generere html fil ud fra gSheet.
