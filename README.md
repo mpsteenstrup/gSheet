@@ -24,7 +24,7 @@ Indlæser data fra regnearket 'Form Responses 1' til 'data'. Specificeren områd
   var data = dataRange.getValues();
 ```
 
-Iterere over alle rækker. Stien til filen bliver splittet i ved `=  og den sidste del giver `id` på filen. `file = DriveApp.getFileById(id);` angiver filen og `file.getName()` giver navnet. Filnavnet bliver skrevet i kolonne `H` med række `i+1`.
+Iterere over alle rækker. Stien til filen bliver splittet i ved `=  og den sidste del giver `id` på filen. `file = DriveApp.getFileById(id);` angiver filen og `file.getName()` giver navnet. Filnavnet bliver skrevet i kolonne `H` med række `i+1` .
 
 ```
   for (var i = 1; i < data.length; ++i) {
