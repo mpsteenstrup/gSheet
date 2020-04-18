@@ -1,7 +1,7 @@
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 # gSheet - hacks
-$$ \pi $$
+$$ \pi = \int_0^\infty sin{\theta}$$
 
 To scripts til at holde styr på filnavne når de uploades med google forms.
 
