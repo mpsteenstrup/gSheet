@@ -1,7 +1,10 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 # gSheet - hacks
-$ \pi = \int_0^\infty sin{\theta}$
+$
+\pi = \int_0^\infty sin{\theta}
+$
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+
 
 To scripts til at holde styr på filnavne når de uploades med google forms.
 
